@@ -1,7 +1,7 @@
 import tensorflow as tf
 # Load Images
 dataset = tf.keras.utils.image_dataset_from_directory(
-    r"vehicle classification/train",
+    r"vehical classification/train",
     image_size=(64, 64),
     batch_size=2
 )
